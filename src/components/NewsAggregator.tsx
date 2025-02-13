@@ -143,9 +143,14 @@ const fetchNews = async ({
   queryKey: [string, string, string, number];
 }) => {
   const [, category, searchTerm, currentPage] = queryKey;
+  const BACKEND_URL =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:5001"
+      : process.env.REACT_APP_BACKEND_URL;
+
   const url = searchTerm
-    ? `http://localhost:5001/api/news?search=${searchTerm}&page=${currentPage}`
-    : `http://localhost:5001/api/news?category=${category}&page=${currentPage}`;
+    ? `${BACKEND_URL}/api/news?search=${searchTerm}&page=${currentPage}`
+    : `${BACKEND_URL}/api/news?category=${category}&page=${currentPage}`;
 
   const response = await axios.get(url);
   return response.data.articles || [];
