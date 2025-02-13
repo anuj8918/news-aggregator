@@ -21,7 +21,7 @@ A modern and responsive news aggregator web app that fetches and displays news a
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-github-username/news-aggregator.git
+git clone https://github.com/sogolnaseri/news-aggregator.git
 cd news-aggregator
 
 ```
