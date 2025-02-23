@@ -25,23 +25,23 @@ git clone https://github.com/sogolnaseri/news-aggregator.git
 cd news-aggregator
 
 ```
-### **2️⃣ Clone the Repository**
+### **2️⃣ Install Dependencies**
 Run this inside both the frontend and backend folders:
 ```sh
 npm install
 ```
 
-### 3️⃣ Set Up Environment Variables
-Create a .env file in the backend directory and add:
+### **3️⃣ Set Up Environment Variables**
+Create a `.env` file in the backend directory and add:
 ```sh
 NEWS_API_KEY=your-newsapi-key
 ```
-For the frontend, create a .env file in the root directory and add:
+For the frontend, create a `.env` file in the root directory and add:
 ```sh
 REACT_APP_BACKEND_URL=http://localhost:5001
 ```
 
-### 4️⃣ Start the Backend
+### **4️⃣ Start the Backend**
 Navigate to the backend folder and start the server:
 ```sh
 cd backend
@@ -49,8 +49,8 @@ npm start
 ```
 This will start the backend at http://localhost:5001.
 
-### 5️⃣ Start the Frontend
-Navigate to the news-aggregator project for frontend and start the React app
+### **5️⃣ Start the Frontend**
+Navigate to the `news-aggregator` project for frontend and start the React app
 ```sh
 npm start
 ```
