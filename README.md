@@ -8,7 +8,13 @@ A modern and responsive news aggregator web app that fetches and displays news a
 
 <img width="1491" alt="image" src="https://github.com/user-attachments/assets/ffbfcc1b-07df-4be1-952a-a2dbd303c72b" />
 
+Loading State
+
+<img width="1485" alt="image" src="https://github.com/user-attachments/assets/5ac3b72d-f174-496a-b99e-e7b5c2d091cc" />
+
+
 Search
+
 <img width="1475" alt="image" src="https://github.com/user-attachments/assets/6fafaf44-0250-4731-bc31-f493482f16c8" />
 
 
