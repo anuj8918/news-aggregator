@@ -6,6 +6,13 @@ A modern and responsive news aggregator web app that fetches and displays news a
 🔗 [News Aggregator - Live Website](https://news-aggregator-fe.onrender.com)  
 🔗 [Backend API - Render](https://news-aggregator-fea2.onrender.com/api/news?category=technology)
 
+<img width="1491" alt="image" src="https://github.com/user-attachments/assets/ffbfcc1b-07df-4be1-952a-a2dbd303c72b" />
+
+Search
+<img width="1475" alt="image" src="https://github.com/user-attachments/assets/6fafaf44-0250-4731-bc31-f493482f16c8" />
+
+
+
 ---
 
 ## 🛠️ Tech Stack
